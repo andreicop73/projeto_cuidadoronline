@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF1FAE01F2E249F008BDB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1FADF1F2E249F008BDB03 /* AppDelegate.swift */; };
+		2AF1FAE21F2E249F008BDB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE11F2E249F008BDB03 /* ViewController.swift */; };
+		2AF1FAE51F2E249F008BDB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE31F2E249F008BDB03 /* Main.storyboard */; };
+		2AF1FAE81F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE61F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld */; };
+		2AF1FAEA1F2E249F008BDB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE91F2E249F008BDB03 /* Assets.xcassets */; };
+		2AF1FAED1F2E249F008BDB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAEB1F2E249F008BDB03 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF1FADC1F2E249F008BDB03 /* projetocuidadoronline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projetocuidadoronline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF1FADF1F2E249F008BDB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AF1FAE11F2E249F008BDB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AF1FAE41F2E249F008BDB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AF1FAE71F2E249F008BDB03 /* projetocuidadoronline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projetocuidadoronline.xcdatamodel; sourceTree = "<group>"; };
+		2AF1FAE91F2E249F008BDB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF1FAEC1F2E249F008BDB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AF1FAEE1F2E249F008BDB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF1FAD91F2E249F008BDB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF1FAD31F2E249F008BDB03 = {
+			isa = PBXGroup;
+			children = (
+				2AF1FADE1F2E249F008BDB03 /* projetocuidadoronline */,
+				2AF1FADD1F2E249F008BDB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF1FADD1F2E249F008BDB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1FADC1F2E249F008BDB03 /* projetocuidadoronline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AF1FADE1F2E249F008BDB03 /* projetocuidadoronline */ = {
+			isa = PBXGroup;
+			children = (
+				2AF1FADF1F2E249F008BDB03 /* AppDelegate.swift */,
+				2AF1FAE11F2E249F008BDB03 /* ViewController.swift */,
+				2AF1FAE31F2E249F008BDB03 /* Main.storyboard */,
+				2AF1FAE91F2E249F008BDB03 /* Assets.xcassets */,
+				2AF1FAEB1F2E249F008BDB03 /* LaunchScreen.storyboard */,
+				2AF1FAEE1F2E249F008BDB03 /* Info.plist */,
+				2AF1FAE61F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld */,
+			);
+			path = projetocuidadoronline;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF1FADB1F2E249F008BDB03 /* projetocuidadoronline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF1FAF11F2E249F008BDB03 /* Build configuration list for PBXNativeTarget "projetocuidadoronline" */;
+			buildPhases = (
+				2AF1FAD81F2E249F008BDB03 /* Sources */,
+				2AF1FAD91F2E249F008BDB03 /* Frameworks */,
+				2AF1FADA1F2E249F008BDB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = projetocuidadoronline;
+			productName = projetocuidadoronline;
+			productReference = 2AF1FADC1F2E249F008BDB03 /* projetocuidadoronline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF1FAD41F2E249F008BDB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "mac ssd";
+				TargetAttributes = {
+					2AF1FADB1F2E249F008BDB03 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2AF1FAD71F2E249F008BDB03 /* Build configuration list for PBXProject "projetocuidadoronline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AF1FAD31F2E249F008BDB03;
+			productRefGroup = 2AF1FADD1F2E249F008BDB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF1FADB1F2E249F008BDB03 /* projetocuidadoronline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF1FADA1F2E249F008BDB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF1FAED1F2E249F008BDB03 /* LaunchScreen.storyboard in Resources */,
+				2AF1FAEA1F2E249F008BDB03 /* Assets.xcassets in Resources */,
+				2AF1FAE51F2E249F008BDB03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF1FAD81F2E249F008BDB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF1FAE21F2E249F008BDB03 /* ViewController.swift in Sources */,
+				2AF1FAE81F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld in Sources */,
+				2AF1FAE01F2E249F008BDB03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AF1FAE31F2E249F008BDB03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF1FAE41F2E249F008BDB03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF1FAEB1F2E249F008BDB03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF1FAEC1F2E249F008BDB03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AF1FAEF1F2E249F008BDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AF1FAF01F2E249F008BDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF1FAF21F2E249F008BDB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = projetocuidadoronline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "projetos-andruino.projetocuidadoronline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2AF1FAF31F2E249F008BDB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = projetocuidadoronline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "projetos-andruino.projetocuidadoronline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF1FAD71F2E249F008BDB03 /* Build configuration list for PBXProject "projetocuidadoronline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF1FAEF1F2E249F008BDB03 /* Debug */,
+				2AF1FAF01F2E249F008BDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF1FAF11F2E249F008BDB03 /* Build configuration list for PBXNativeTarget "projetocuidadoronline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF1FAF21F2E249F008BDB03 /* Debug */,
+				2AF1FAF31F2E249F008BDB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AF1FAE61F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AF1FAE71F2E249F008BDB03 /* projetocuidadoronline.xcdatamodel */,
+			);
+			currentVersion = 2AF1FAE71F2E249F008BDB03 /* projetocuidadoronline.xcdatamodel */;
+			path = projetocuidadoronline.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AF1FAD41F2E249F008BDB03 /* Project object */;
+}
