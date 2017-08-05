@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1746F71F32907400C0FBE8 /* Pessoacuidada+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746EF1F32907400C0FBE8 /* Pessoacuidada+CoreDataClass.swift */; };
+		2A1746F81F32907400C0FBE8 /* Pessoacuidada+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F01F32907400C0FBE8 /* Pessoacuidada+CoreDataProperties.swift */; };
+		2A1746F91F32907400C0FBE8 /* Recuperar+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F11F32907400C0FBE8 /* Recuperar+CoreDataClass.swift */; };
+		2A1746FA1F32907400C0FBE8 /* Recuperar+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F21F32907400C0FBE8 /* Recuperar+CoreDataProperties.swift */; };
+		2A1746FB1F32907400C0FBE8 /* Localizacao+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F31F32907400C0FBE8 /* Localizacao+CoreDataClass.swift */; };
+		2A1746FC1F32907400C0FBE8 /* Localizacao+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F41F32907400C0FBE8 /* Localizacao+CoreDataProperties.swift */; };
+		2A1746FD1F32907400C0FBE8 /* Usuarios+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F51F32907400C0FBE8 /* Usuarios+CoreDataClass.swift */; };
+		2A1746FE1F32907400C0FBE8 /* Usuarios+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1746F61F32907400C0FBE8 /* Usuarios+CoreDataProperties.swift */; };
+		2AC708D21F35494000DE556F /* obterdadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC708D11F35494000DE556F /* obterdadosViewController.swift */; };
+		2AD05E8B1F3003F900C23D24 /* RecuperaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD05E8A1F3003F900C23D24 /* RecuperaViewController.swift */; };
+		2AD43B0C1F3137A900039611 /* listaUsuarioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD43B0B1F3137A900039611 /* listaUsuarioTableViewController.swift */; };
+		2AD60A1E1F35794900DC4143 /* dadosCadastrados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD60A1D1F35794900DC4143 /* dadosCadastrados.swift */; };
+		2AE787DB1F2EA419006EFF0B /* Cad1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE787DA1F2EA419006EFF0B /* Cad1ViewController.swift */; };
+		2AE787DD1F2EACD5006EFF0B /* Cad2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE787DC1F2EACD5006EFF0B /* Cad2ViewController.swift */; };
+		2AE787DF1F2EBDCF006EFF0B /* Cad3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE787DE1F2EBDCF006EFF0B /* Cad3ViewController.swift */; };
 		2AF1FAE01F2E249F008BDB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1FADF1F2E249F008BDB03 /* AppDelegate.swift */; };
 		2AF1FAE21F2E249F008BDB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE11F2E249F008BDB03 /* ViewController.swift */; };
 		2AF1FAE51F2E249F008BDB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE31F2E249F008BDB03 /* Main.storyboard */; };
 		2AF1FAE81F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE61F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld */; };
-		2AF1FAEA1F2E249F008BDB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE91F2E249F008BDB03 /* Assets.xcassets */; };
+		2AF1FAEA1F2E249F008BDB03 /* cuidador_online.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAE91F2E249F008BDB03 /* cuidador_online.png */; };
 		2AF1FAED1F2E249F008BDB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAEB1F2E249F008BDB03 /* LaunchScreen.storyboard */; };
+		2AF1FAF51F2E292F008BDB03 /* cuidador_online.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AF1FAF41F2E292F008BDB03 /* cuidador_online.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1746EF1F32907400C0FBE8 /* Pessoacuidada+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Pessoacuidada+CoreDataClass.swift"; path = "../models/Pessoacuidada+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A1746F01F32907400C0FBE8 /* Pessoacuidada+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Pessoacuidada+CoreDataProperties.swift"; path = "../models/Pessoacuidada+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2A1746F11F32907400C0FBE8 /* Recuperar+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recuperar+CoreDataClass.swift"; path = "../models/Recuperar+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A1746F21F32907400C0FBE8 /* Recuperar+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recuperar+CoreDataProperties.swift"; path = "../models/Recuperar+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2A1746F31F32907400C0FBE8 /* Localizacao+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Localizacao+CoreDataClass.swift"; path = "../models/Localizacao+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A1746F41F32907400C0FBE8 /* Localizacao+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Localizacao+CoreDataProperties.swift"; path = "../models/Localizacao+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2A1746F51F32907400C0FBE8 /* Usuarios+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Usuarios+CoreDataClass.swift"; path = "../models/Usuarios+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2A1746F61F32907400C0FBE8 /* Usuarios+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Usuarios+CoreDataProperties.swift"; path = "../models/Usuarios+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2AC708D11F35494000DE556F /* obterdadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = obterdadosViewController.swift; sourceTree = "<group>"; };
+		2AD05E8A1F3003F900C23D24 /* RecuperaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecuperaViewController.swift; sourceTree = "<group>"; };
+		2AD43B0B1F3137A900039611 /* listaUsuarioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listaUsuarioTableViewController.swift; sourceTree = "<group>"; };
+		2AD60A1D1F35794900DC4143 /* dadosCadastrados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dadosCadastrados.swift; sourceTree = "<group>"; };
+		2AE787DA1F2EA419006EFF0B /* Cad1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cad1ViewController.swift; sourceTree = "<group>"; };
+		2AE787DC1F2EACD5006EFF0B /* Cad2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cad2ViewController.swift; sourceTree = "<group>"; };
+		2AE787DE1F2EBDCF006EFF0B /* Cad3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cad3ViewController.swift; sourceTree = "<group>"; };
 		2AF1FADC1F2E249F008BDB03 /* projetocuidadoronline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projetocuidadoronline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF1FADF1F2E249F008BDB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AF1FAE11F2E249F008BDB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AF1FAE41F2E249F008BDB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AF1FAE71F2E249F008BDB03 /* projetocuidadoronline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projetocuidadoronline.xcdatamodel; sourceTree = "<group>"; };
-		2AF1FAE91F2E249F008BDB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF1FAE91F2E249F008BDB03 /* cuidador_online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cuidador_online.png; path = Assets.xcassets/cuidador_online.imageset/cuidador_online.png; sourceTree = "<group>"; };
 		2AF1FAEC1F2E249F008BDB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF1FAEE1F2E249F008BDB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF1FAF41F2E292F008BDB03 /* cuidador_online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuidador_online.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1746FF1F32908800C0FBE8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2A1746EF1F32907400C0FBE8 /* Pessoacuidada+CoreDataClass.swift */,
+				2A1746F01F32907400C0FBE8 /* Pessoacuidada+CoreDataProperties.swift */,
+				2A1746F11F32907400C0FBE8 /* Recuperar+CoreDataClass.swift */,
+				2A1746F21F32907400C0FBE8 /* Recuperar+CoreDataProperties.swift */,
+				2A1746F31F32907400C0FBE8 /* Localizacao+CoreDataClass.swift */,
+				2A1746F41F32907400C0FBE8 /* Localizacao+CoreDataProperties.swift */,
+				2A1746F51F32907400C0FBE8 /* Usuarios+CoreDataClass.swift */,
+				2A1746F61F32907400C0FBE8 /* Usuarios+CoreDataProperties.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		2AF1FAD31F2E249F008BDB03 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +103,19 @@
 		2AF1FADE1F2E249F008BDB03 /* projetocuidadoronline */ = {
 			isa = PBXGroup;
 			children = (
+				2A1746FF1F32908800C0FBE8 /* models */,
 				2AF1FADF1F2E249F008BDB03 /* AppDelegate.swift */,
 				2AF1FAE11F2E249F008BDB03 /* ViewController.swift */,
+				2AE787DA1F2EA419006EFF0B /* Cad1ViewController.swift */,
+				2AE787DC1F2EACD5006EFF0B /* Cad2ViewController.swift */,
+				2AE787DE1F2EBDCF006EFF0B /* Cad3ViewController.swift */,
+				2AD60A1D1F35794900DC4143 /* dadosCadastrados.swift */,
+				2AD43B0B1F3137A900039611 /* listaUsuarioTableViewController.swift */,
+				2AD05E8A1F3003F900C23D24 /* RecuperaViewController.swift */,
+				2AC708D11F35494000DE556F /* obterdadosViewController.swift */,
 				2AF1FAE31F2E249F008BDB03 /* Main.storyboard */,
-				2AF1FAE91F2E249F008BDB03 /* Assets.xcassets */,
+				2AF1FAE91F2E249F008BDB03 /* cuidador_online.png */,
+				2AF1FAF41F2E292F008BDB03 /* cuidador_online.png */,
 				2AF1FAEB1F2E249F008BDB03 /* LaunchScreen.storyboard */,
 				2AF1FAEE1F2E249F008BDB03 /* Info.plist */,
 				2AF1FAE61F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld */,
@@ -127,7 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF1FAED1F2E249F008BDB03 /* LaunchScreen.storyboard in Resources */,
-				2AF1FAEA1F2E249F008BDB03 /* Assets.xcassets in Resources */,
+				2AF1FAF51F2E292F008BDB03 /* cuidador_online.png in Resources */,
+				2AF1FAEA1F2E249F008BDB03 /* cuidador_online.png in Resources */,
 				2AF1FAE51F2E249F008BDB03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +197,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF1FAE21F2E249F008BDB03 /* ViewController.swift in Sources */,
+				2A1746FA1F32907400C0FBE8 /* Recuperar+CoreDataProperties.swift in Sources */,
+				2AE787DF1F2EBDCF006EFF0B /* Cad3ViewController.swift in Sources */,
+				2AD60A1E1F35794900DC4143 /* dadosCadastrados.swift in Sources */,
+				2AE787DD1F2EACD5006EFF0B /* Cad2ViewController.swift in Sources */,
+				2A1746FE1F32907400C0FBE8 /* Usuarios+CoreDataProperties.swift in Sources */,
 				2AF1FAE81F2E249F008BDB03 /* projetocuidadoronline.xcdatamodeld in Sources */,
+				2A1746FD1F32907400C0FBE8 /* Usuarios+CoreDataClass.swift in Sources */,
+				2AC708D21F35494000DE556F /* obterdadosViewController.swift in Sources */,
+				2AD43B0C1F3137A900039611 /* listaUsuarioTableViewController.swift in Sources */,
+				2A1746FB1F32907400C0FBE8 /* Localizacao+CoreDataClass.swift in Sources */,
+				2A1746F91F32907400C0FBE8 /* Recuperar+CoreDataClass.swift in Sources */,
 				2AF1FAE01F2E249F008BDB03 /* AppDelegate.swift in Sources */,
+				2A1746F71F32907400C0FBE8 /* Pessoacuidada+CoreDataClass.swift in Sources */,
+				2AD05E8B1F3003F900C23D24 /* RecuperaViewController.swift in Sources */,
+				2A1746FC1F32907400C0FBE8 /* Localizacao+CoreDataProperties.swift in Sources */,
+				2AE787DB1F2EA419006EFF0B /* Cad1ViewController.swift in Sources */,
+				2A1746F81F32907400C0FBE8 /* Pessoacuidada+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +377,7 @@
 				2AF1FAF31F2E249F008BDB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

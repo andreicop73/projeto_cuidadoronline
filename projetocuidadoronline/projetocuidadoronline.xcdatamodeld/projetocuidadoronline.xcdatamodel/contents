@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Localizacao" representedClassName="Localizacao" syncable="YES">
+        <attribute name="dispositoPessoacuidada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localizacaoPessoa" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Pessoacuidada" representedClassName="Pessoacuidada" syncable="YES">
+        <attribute name="dataNascimento" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="localizacaoPessoa" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nomeCuidador" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomepessoacuidada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numerodispositivo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Recuperar" representedClassName="Recuperar" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomeusuario" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Usuarios" representedClassName="Usuarios" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomePessoaCuidada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomeUsuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numeroContato" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentesco" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senha" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Localizacao" positionX="43" positionY="351" width="128" height="75"/>
+        <element name="Pessoacuidada" positionX="-243" positionY="324" width="128" height="120"/>
+        <element name="Recuperar" positionX="-288" positionY="72" width="128" height="75"/>
+        <element name="Usuarios" positionX="88" positionY="98" width="128" height="135"/>
+    </elements>
 </model>
