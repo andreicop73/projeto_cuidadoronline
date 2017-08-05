@@ -40,18 +40,8 @@ class Cad3ViewController: UIViewController {
         
         
         func salvar(){
-            var novonome:Usuarios
             
-             novonome = NSEntityDescription.insertNewObject(forEntityName: "Usuarios", into: (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext) as! Usuarios
-            
-            
-            novonome.setValue(self.myuser?.nomeUsuario, forKey: "nomeUsuario")
-            novonome.setValue(self.myuser?.email, forKey: "email")
-            novonome.setValue(self.myuser?.numeroContato, forKey: "numeroContato")
-            novonome.setValue(self.myuser?.nomePessoaCuidada, forKey: "nomePessoaCuidada")
-            novonome.setValue(self.myuser?.parentesco, forKey: "parentesco")
-            novonome.setValue(self.senhaText.text, forKey: "senha")
-            
+            myuser?.senha = self.senhaText.text
             
             
             if senhaText.text != "" {
